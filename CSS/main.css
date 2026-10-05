@@ -1,0 +1,10 @@
+p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card:hover {
+  transition: 0.4s;
+  transform: translateY(-10px);
+}
